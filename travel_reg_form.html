@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Travel Reg Form</title>
+        <style>
+            legend{
+                text-align: center;
+                padding: 10px;
+            }
+            label{
+                margin-left: 250px;
+            }
+            button{
+                margin-left: 250px;
+                padding: 5px;
+
+            }
+            #i1{
+                margin-left: 10px;
+            }
+            #i2{
+                margin-left: 10px;
+            }
+            #i3{
+                margin-left: 25px;
+            }
+            #i4{
+                margin-left: 20px;
+            }
+            #i5{
+                margin-left: 45px;
+            }
+            #i6{
+                margin-left: 40px;
+            }
+            #i7{
+                margin-left: 35px;
+            }
+            #i8{
+                margin-left: 15px;
+            }
+            fieldset{
+                border-radius: 20px;
+                margin-right: 400px;
+                margin-left: 300px;
+                background-color:lightblue;
+                box-shadow: 2px 2px 8px black;
+                background:linear-gradient(rgb(188, 212, 219), rgb(8, 108, 170), rgb(46, 126, 230) )
+            }
+            select{
+                margin-left: 200px;
+                margin-bottom: 35px;
+                width: 290px;
+                height: 30px;
+                background-color:azure;
+
+            }
+            button:hover{
+                background-color:rgb(186, 206, 225);
+            }
+            select:hover{
+                background-color:rgb(189, 218, 235);
+            }
+            body{
+                background:url(./impg.png)
+            }
+        
+        </style>
+    </head>
+    <body>
+        <form>
+        <fieldset> <legend><b>Travel Reg Form</b></legend>
+            <select>
+                <option>--select--</option>
+                <option>bus</option>
+                <option>car</option>
+                <option>train</option>
+
+            </select><br>
+            <label>Form:</label>
+            <input id="i1" type="text" placeholder="Enter ur from city here "required><br><br>
+            <label>To:</label>
+            <input id="i2" type="text" placeholder="Enter ur to city here" required><br><br>
+            <label>Date of Travelling:</label>
+            <input type="date" required><br><br>
+            <label>Fname:</label>
+            <input id="i3" type ="text" required><br><br>
+            <label>Lname:</label>
+            <input id="i4" type="text"required><br><br>
+            <label>Gender:</label>
+            Male<input type="radio" name="Gender" value="Male" required>
+            Female<input type="radio" name="Gender" value="Female" required>
+            Others<input type="radio" name="Gender" value="Others" required><br><br>
+            <label>Age:</label>
+            <input id="i5" type="number" required><br><br>
+            <label>Phno:</label>
+            <input id="i6" type="number" required><br><br>
+            <label>Email:</label>
+            <input id="i7" type="email" required><br><br>
+            <label>password:</label>
+            <input id="i8" type="password" required><br><br>
+            <button onclick="">Reg in</button>
+        </fieldset>
+        </form>
+    </body>
+</html>
