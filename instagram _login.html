@@ -1,0 +1,89 @@
+<html>
+<head>
+    <title>Instagram login</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+        fieldset{
+            width: 320px;
+            margin: 80px auto;
+            padding: 20px;
+            border: 1px solid gray;
+        }
+        h1{
+            font-family: cursive;
+            text-align: center;
+            color: white;
+            margin-bottom: 20px;
+        }
+        input{
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 8px;
+            background-color: rgb(25,25,25);
+            border: 1px solid gray;
+            border-radius: 4px;
+            color: white;
+        }
+        button{
+            width: 100%;
+            padding: 8px;
+            background-color: rgb(48,140,210);
+            color: white;
+            border: none;
+            margin-top: 10px;
+        }
+        a{
+            display: block;
+            text-align: right;
+            color: #4da6ff;
+            text-decoration: none;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        h5{
+            text-align: center;
+            color: gray;
+            margin-top: 15px;
+            font-weight: normal;
+        }
+        .fb-logo{
+            text-align: center;
+            margin-bottom: 8px;
+            margin-top: none;
+            width: 20px;  
+            vertical-align: middle;
+            align-items: center;
+            margin-left: 10px;
+        }
+        button:hover{
+            background-color: #1067bd;
+        }
+        a:hover{
+            color: hsl(254, 75%, 46%);
+
+        }
+    </style>
+</head>
+
+<body>
+<form>
+    <fieldset>
+        <h1>Instagram</h1>
+
+        <input type="text" placeholder="Email or Phone number" required>
+        <input type="password" placeholder="Password">
+
+        <a href="#">Forgotten account?</a>
+
+        <button>Log in</button>
+
+        <h5>---------------------------------  OR  ---------------------------------</h5>
+        <button><img src="fb.webp" class="fb-logo"> Log in with Facebook</button>
+    </fieldset>
+</form>
+</body>
+</html>
